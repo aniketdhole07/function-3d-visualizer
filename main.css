@@ -1,0 +1,241 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'B612', sans-serif;
+}
+
+
+h1 {
+    font-family: 'B612', sans-serif;
+    letter-spacing: 2px;
+    color: #27C6FF;
+
+}
+.range-slider .input-range {
+  -webkit-appearance: none;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;
+  background:  #B7B6B6;
+  outline: none;
+}
+.range-slider .input-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  #666;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider .input-range::-webkit-slider-thumb:hover {
+  background:  #27C6FF;
+}
+.range-slider .input-range:active::-webkit-slider-thumb {
+  background: #27C6FF;
+}
+.range-slider .range-value {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  color: #fff;
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #27C6FF;
+  padding: 5px 10px;
+  margin-left: 7px;
+}
+
+.range-slider .range-value:after {
+  position: absolute;
+  top: 8px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #27C6FF;
+  border-bottom: 7px solid transparent;
+  content: '';
+}
+
+.range-slider1 .input-range1 {
+  -webkit-appearance: none;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;
+  background:  #B7B6B6;
+  outline: none;
+}
+.range-slider1 .input-range1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  #666;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider1 .input-range1::-webkit-slider-thumb:hover {
+  background:  #27C6FF;
+}
+.range-slider1 .input-range1:active::-webkit-slider-thumb {
+  background: #27C6FF;
+}
+.range-slider1 .range-value1 {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  color: #fff;
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #27C6FF;
+  padding: 5px 10px;
+  margin-left: 7px;
+}
+
+.range-slider1 .range-value1:after {
+  position: absolute;
+  top: 8px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #27C6FF;
+  border-bottom: 7px solid transparent;
+  content: '';
+}
+#main_all{
+    position: relative;
+}
+#chart{
+	width: auto;
+	margin: 100px auto;
+	padding: 0px;
+}
+#content {
+	width: 800px;
+	margin: 30px auto 50px auto;
+	padding: 15px;
+}
+select, textarea {
+    font-family: 'B612', sans-serif;
+    padding: 25px;
+    padding-right: 100px;
+    width: 350px;
+	
+	border-radius: 10px;
+	
+	background: #fffbfb;
+	border: 1px solid #dddddd;
+	font-family: Arial, sans-serif;
+	margin-bottom: 3px;
+    font-size: 20px;
+}
+input[type=submit] {
+	   font-family: 'B612', sans-serif;
+    font-size: 20px;
+    color: black;
+    background: #5EDF9E;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inp{
+    padding: 25px;
+    padding-right: 100px;
+    width: 350px;
+    
+    border-radius: 10px;
+    
+    background: #fffbfb;
+    border: 2px solid #dddddd;
+    font-family: 'B612', sans-serif;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav-right {
+  float: right;
+}
+
+
+
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content_main {
+    margin-top: 50px;
+  background-color:rgba(255,255,255,.2);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+ 
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
